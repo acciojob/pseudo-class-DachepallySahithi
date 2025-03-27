@@ -9,15 +9,14 @@
 
 #container::before{
 	content: "Before Element";
-  display: block;
   color: #f00;
   font-size: 20px;
-  margin-bottom: 10px;
+	font-weight: bold;
 }
 #container::after{
   content: "After Element";
-  display: block;
+  /* display: block; */
   color: #f00;
   font-size: 20px;
-  margin-top: 10px;
+	font-weight: bold;
 }
